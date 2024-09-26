@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nugen</title>
+
+  <!-- 
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml"> -->
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+
+  <!--OWl carousel-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-... (checksum)" crossorigin="anonymous" />
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- bootstrap link -->
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS for Carousel -->
+  <style>
+    @keyframes colorChange {
+
+      0%,
+      100% {
+        color: #462699;
+        /* Start and end color */
+      }
+
+      50% {
+        color: #9E83EA;
+        /* Middle color */
+      }
+    }
+
+    .animated-heading {
+      font-size: 40px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      animation: colorChange 3s infinite;
+      /* Animation duration and repetition */
+
+
+      @media (max-width: 600px) {
+        input[type="text"]#search {
+          font-size: 14px;
+
+          /* Adjust font size for smaller screens */
+        }
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>info@nugencommunications.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>A-64 3rd Floor, Noida-63</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list" style="margin-bottom: 27px;">
+
+            <li>
+              <a href="https://www.facebook.com/share/v/gTWDGRTCVeJr1RJC/?mibextid=qi2Omg"
+                class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li> <br>
+
+
+
+            <li>
+              <a href="https://www.instagram.com/nugencommunication?igsh=MW10MzNjb3FuOTNhMg=="
+                class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li> <br>
+
+
+            <li>
+              <a href="https://www.linkedin.com/posts/inext-globaltechnologies_shorts-cybersecurity-cyber-activity-7212030724483244033-BF8G?utm_source=share&utm_medium=member_android"
+                class="header-top-social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li> <br>
+
+            <li>
+              <a href="https://youtube.com/shorts/m4eyDP6349I?feature=share" class="header-top-social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+
+
+          </ul>
+
+          <!-- <button class="header-top-btn">Download</button> -->
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/NUGEN_TM.png" alt="nugen logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/NUGEN_TM.png" alt="nugen logo">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <a href="index.php"> <button class="bb1">Home Page</button> </a>
+
+          </ul>
+      </div>
+
+      </nav>
+
+      <div class="header-bottom-actions">
+
+        <!-- <button class="header-bottom-actions-btn" aria-label="Search">
+              <ion-icon name="search-outline"></ion-icon>
+  
+              <span>Search</span>
+            </button>
+  
+            <button class="header-bottom-actions-btn" aria-label="Profile">
+              <ion-icon name="person-outline"></ion-icon>
+  
+              <span>Profile</span>
+            </button>  -->
+
+        <!-- <button class="header-bottom-actions-btn" aria-label="Cart">
+              <ion-icon name="cart-outline"></ion-icon>
+  
+              <span>Cart</span>
+            </button> -->
+
+        <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+          <ion-icon name="menu-outline"></ion-icon>
+
+          <span>Menu</span>
+        </button>
+
+      </div>
+
+    </div>
+    </div>
+
+  </header>
+
+  <main>
+    <article>
+
+      <article class="article-container">
+        <div class="article-image" >
+          <img src="assets/images/Enterprise.png" alt="Article Image" style="width: 60%;  margin-left: 10%;">
+        </div>
+        <div class="article-content">
+          <h1>Enterprise</h1>
+          An enterprise is a large organization or business that operates in a specific industry or market, often with
+          multiple departments, teams, and locations. In the context of technology and networking, enterprise refers to
+          the organization's IT infrastructure, systems, and applications, which are designed to support its operations,
+          innovation, and growth. This includes large-scale software applications, internal networks, and overall IT
+          architecture, as well as measures to ensure security and protect against threats and vulnerabilities.
+          Enterprises require scalable, secure, and reliable technology solutions to meet their unique needs and stay
+          competitive in their industry.
+          <br> <br>
+
+          Enterprises are complex systems that require careful management and strategic planning to succeed. They must
+          balance short-term needs with long-term goals, innovate to stay ahead of the competition, and cultivate a
+          culture of collaboration and continuous learning. Effective leadership, strategic partnerships, and a
+          commitment to excellence are essential for enterprises to achieve their vision and make a lasting impact in
+          their industry.
+        </div>
+      </article>
+
+      <!-- footer -->
+      <footer class="footer">
+
+        <div class="footer-top">
+          <div class="container">
+    
+            <div class="footer-brand ">
+              <p class="section-text">
+                <a href="#"><img src="assets/images/logo3.png" alt=""></a>
+              </p>
+    
+              <ul class="contact-list">
+    
+                <p> Nugen Communication (New Generation Communication) is one of the largest ICT companies in the Northern
+                  Cape, integrating communication solutions to every significant market sector, focusing on the value added
+                  service of voice, convergence and data products.</p>
+              </ul>
+              <br>
+              <ul class="social-list">
+    
+                <li>
+                  <a href="https://www.facebook.com/profile.php?id=61557583432506&mibextid=ZbWKwL" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="https://www.instagram.com/nugencommunication?igsh=MW10MzNjb3FuOTNhMg==" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="https://www.linkedin.com/company/nugen-communication2/" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+    
+                <!-- <li>
+                  <a href="https://youtube.com/@techsaathigrow?si=C6brNICOq9sbwTkQ" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li> -->
+    
+              </ul>
+    
+            </div>
+    
+            <div class="footer-link-box">
+    
+              <ul class="footer-list">
+    
+                <li>
+                  <p class="footer-list-title">Ouicks Links</p>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Home</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">About</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link"> Service</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link"> Features</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Contact </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Download </a>
+                </li>
+    
+              </ul>
+    
+              <ul class="footer-list">
+    
+                <li>
+                  <p class="footer-list-title">Services</p>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link"> Bulk Bandwidth </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link"> P2P/NLD </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link"> Enterprise </a>
+                </li>
+                <!-- 
+                <li>
+                  <a href="#" class="footer-link">My account</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Terms & Conditions</a>
+                </li>
+    
+                <li>
+                  <a href="#" class="footer-link">Promotional Offers</a>
+                </li> -->
+    
+              </ul>
+    
+              <ul class="footer-list">
+    
+                <ul class="contact-list">
+                  <li>
+                    <p class="footer-list-title">Official info : </p>
+                  </li>
+                  <li>
+                    <a href="#" class="contact-link">
+                      <ion-icon name="location-outline"></ion-icon>
+    
+                      <address>A-64 3rd Floor, Noida-63</address>
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a href="tel:+91-7599556060" class="contact-link">
+                      <ion-icon name="call-outline"></ion-icon>
+    
+                      <span>+91-7599556060</span>
+                    </a>
+                  </li>
+    
+                  <li>
+                    <a href="mailto:info@nugencommunications.com" class="contact-link">
+                      <ion-icon name="mail-outline"></ion-icon>
+    
+                      <span>info@nugencommunications.com</span>
+                    </a>
+                  </li>
+    
+                </ul>
+    
+              </ul>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright">
+              &copy; 2024 <a href="#">Nugen Commmunication</a>. All Rights Reserved
+            </p>
+    
+          </div>
+        </div>
+    
+      </footer>
+    
+      <!-- 
+        - custom js link
+      -->
+      <script src="./assets/js/script.js"></script>
+    
+      <!-- 
+        - ionicon link
+      -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    </body>
+    
+    </html>
